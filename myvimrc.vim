@@ -17,6 +17,9 @@ set lazyredraw "buffer at longer times
 set showmatch "show matching parenthesis-like character
 set incsearch "search as characters are entered
 set hlsearch "highlight search
+set smartcase " Case sensitive if capital included in search
+set autoindent
+set smartindent
 set foldenable
 set foldlevelstart=10
 set foldnestmax=10
