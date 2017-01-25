@@ -36,5 +36,3 @@ nnoremap k gk
 nnoremap <space> za
 "hide the highlighted search
 nnoremap <leader><space> :nohlsearch<CR>
-"save session
-nnoremap <leader>s :mksession<CR>
