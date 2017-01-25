@@ -8,9 +8,9 @@ set tabstop=4 "tab spaces
 set softtabstop=4 "to backspace 4 spaces
 set expandtab "tabs to be equivalent to spaces
 set number "show line numbers
+set relativenumber "relative number display
 set showcmd " use powerline plugin
 set cursorline "highlight curr line
-filetype indent on "check again
 set wildmenu "on pressing tab show options
 set ttyfast "increase connection b/w terminal for fastser scrolling
 set lazyredraw "buffer at longer times
