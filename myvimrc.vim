@@ -28,6 +28,7 @@ nnoremap E $
 "map ^ $ to nothing
 nnoremap $ <nop>
 nnoremap ^ <nop>
+"nnoremap s <nop>
 "move around lines in vertical direction as they see not how they really are
 nnoremap j gj
 nnoremap k gk
@@ -35,4 +36,5 @@ nnoremap k gk
 nnoremap <space> za
 "hide the highlighted search
 nnoremap <leader><space> :nohlsearch<CR>
-
+"save session
+nnoremap <leader>s :mksession<CR>
