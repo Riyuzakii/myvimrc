@@ -61,3 +61,5 @@ nnoremap <space> za
 nnoremap <leader><space> :nohlsearch<CR>
 
 inoremap jk <Esc>
+inoremap <c-s> <Esc>:w<CR>i
+nnoremap <c-s> :w<CR>
