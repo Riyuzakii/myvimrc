@@ -17,6 +17,7 @@ Plugin 'kien/ctrlp.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+
 " setting mapleader to a comma
 let mapleader=","
 
@@ -25,6 +26,7 @@ syntax enable "awesome viewing
 set tabstop=4 "tab spaces
 set softtabstop=4 "to backspace 4 spaces
 set expandtab
+set shiftwidth=4
 set number "show line numbers
 set relativenumber "relative number display
 set showcmd " use powerline plugin
@@ -57,3 +59,5 @@ nnoremap k gk
 nnoremap <space> za
 "hide the highlighted search
 nnoremap <leader><space> :nohlsearch<CR>
+
+inoremap jk <Esc>
