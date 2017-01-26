@@ -14,13 +14,15 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'kien/ctrlp.vim'
+Plugin 'flazz/vim-colorschemes' 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 
 " setting mapleader to a comma
 let mapleader=","
-
+ 
+colorscheme molokai_dark 
 syntax enable "awesome viewing
 
 set tabstop=4 "tab spaces
@@ -44,6 +46,7 @@ set foldenable
 set foldlevelstart=10
 set foldnestmax=10
 set foldmethod=indent
+set pastetoggle=<leader>p
 
 "move to end/beginning of line
 nnoremap B ^
