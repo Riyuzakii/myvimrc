@@ -16,6 +16,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'kien/ctrlp.vim'
 Plugin 'flazz/vim-colorschemes' 
 Plugin 'mattn/emmet-vim'
+Plugin 'itchyny/lightline.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -48,6 +49,7 @@ set foldlevelstart=10
 set foldnestmax=10
 set foldmethod=indent
 set pastetoggle=<leader>p
+set laststatus=2
 
 "move to end/beginning of line
 nnoremap B ^
@@ -63,7 +65,12 @@ nnoremap k gk
 nnoremap <space> za
 "hide the highlighted search
 nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader>% :source %<CR>
 
 inoremap jk <Esc>
 inoremap <c-s> <Esc>:w<CR>i
 nnoremap <c-s> :w<CR>
+
+let g:lightline= {
+    \ 'colorscheme' : 'landscape',
+    \ }
